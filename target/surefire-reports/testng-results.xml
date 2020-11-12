@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RetryFailedSuite" duration-ms="81423" started-at="2020-11-12T17:53:45 SGT" finished-at="2020-11-12T17:55:06 SGT">
+    <groups>
+    </groups>
+    <test name="RetryFailedTests" duration-ms="81423" started-at="2020-11-12T17:53:45 SGT" finished-at="2020-11-12T17:55:06 SGT">
+      <class name="test.java.TestCases.InsertMultipleRecordsTC">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.java.TestCases.InsertMultipleRecordsTC@49993335]" name="setUp" is-config="true" duration-ms="29" started-at="2020-11-12T17:53:56 SGT" finished-at="2020-11-12T17:53:56 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InsertMultipleRecordsTest()[pri:0, instance:test.java.TestCases.InsertMultipleRecordsTC@49993335]" name="InsertMultipleRecordsTest" duration-ms="48" started-at="2020-11-12T17:53:56 SGT" finished-at="2020-11-12T17:53:56 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsertMultipleRecordsTest -->
+      </class> <!-- test.java.TestCases.InsertMultipleRecordsTC -->
+      <class name="test.java.TestCases.Governer_TC">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.java.TestCases.Governer_TC@192b07fd]" name="setUp" is-config="true" duration-ms="42685" started-at="2020-11-12T17:53:57 SGT" finished-at="2020-11-12T17:54:40 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VeriyCashDispensedTest()[pri:0, instance:test.java.TestCases.Governer_TC@192b07fd]" name="VeriyCashDispensedTest" duration-ms="1290" started-at="2020-11-12T17:54:40 SGT" finished-at="2020-11-12T17:54:41 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriyCashDispensedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.TestCases.Governer_TC@192b07fd]" name="tearDown" is-config="true" duration-ms="983" started-at="2020-11-12T17:54:41 SGT" finished-at="2020-11-12T17:54:42 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.java.TestCases.Governer_TC@192b07fd]" name="setUp" is-config="true" duration-ms="11409" started-at="2020-11-12T17:54:42 SGT" finished-at="2020-11-12T17:54:54 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="btn_red_Test()[pri:0, instance:test.java.TestCases.Governer_TC@192b07fd]" name="btn_red_Test" duration-ms="61" started-at="2020-11-12T17:54:54 SGT" finished-at="2020-11-12T17:54:54 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btn_red_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.TestCases.Governer_TC@192b07fd]" name="tearDown" is-config="true" duration-ms="751" started-at="2020-11-12T17:54:54 SGT" finished-at="2020-11-12T17:54:55 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.java.TestCases.Governer_TC@192b07fd]" name="setUp" is-config="true" duration-ms="10995" started-at="2020-11-12T17:54:55 SGT" finished-at="2020-11-12T17:55:06 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="text_DispenseNowTest()[pri:0, instance:test.java.TestCases.Governer_TC@192b07fd]" name="text_DispenseNowTest" duration-ms="210" started-at="2020-11-12T17:55:06 SGT" finished-at="2020-11-12T17:55:06 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- text_DispenseNowTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.TestCases.Governer_TC@192b07fd]" name="tearDown" is-config="true" duration-ms="653" started-at="2020-11-12T17:55:06 SGT" finished-at="2020-11-12T17:55:06 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.java.TestCases.Governer_TC -->
+      <class name="test.java.TestCases.InsertRecordTC">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.java.TestCases.InsertRecordTC@5025a98f]" name="setUp" is-config="true" duration-ms="1" started-at="2020-11-12T17:53:55 SGT" finished-at="2020-11-12T17:53:55 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="insertIncorrectRecordTest()[pri:0, instance:test.java.TestCases.InsertRecordTC@5025a98f]" name="insertIncorrectRecordTest" duration-ms="483" started-at="2020-11-12T17:53:55 SGT" finished-at="2020-11-12T17:53:56 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertIncorrectRecordTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.TestCases.InsertRecordTC@5025a98f]" name="tearDown" is-config="true" duration-ms="17" started-at="2020-11-12T17:53:56 SGT" finished-at="2020-11-12T17:53:56 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="insertSingleRecordTest()[pri:0, instance:test.java.TestCases.InsertRecordTC@5025a98f]" name="insertSingleRecordTest" duration-ms="20" started-at="2020-11-12T17:53:56 SGT" finished-at="2020-11-12T17:53:56 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSingleRecordTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.java.TestCases.InsertRecordTC@5025a98f]" name="setUp" is-config="true" duration-ms="0" started-at="2020-11-12T17:53:56 SGT" finished-at="2020-11-12T17:53:56 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.TestCases.InsertRecordTC@5025a98f]" name="tearDown" is-config="true" duration-ms="13" started-at="2020-11-12T17:53:56 SGT" finished-at="2020-11-12T17:53:56 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.java.TestCases.InsertRecordTC -->
+      <class name="test.java.TestCases.UploadCSV_TC">
+        <test-method status="PASS" signature="uploadCSVTest()[pri:0, instance:test.java.TestCases.UploadCSV_TC@20322d26]" name="uploadCSVTest" duration-ms="1371" started-at="2020-11-12T17:53:56 SGT" finished-at="2020-11-12T17:53:57 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadCSVTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.java.TestCases.UploadCSV_TC@20322d26]" name="setUp" is-config="true" duration-ms="0" started-at="2020-11-12T17:53:56 SGT" finished-at="2020-11-12T17:53:56 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- test.java.TestCases.UploadCSV_TC -->
+      <class name="test.java.TestCases.BookKeeper_taxReliefTC">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.java.TestCases.BookKeeper_taxReliefTC@2d928643]" name="setUp" is-config="true" duration-ms="6047" started-at="2020-11-12T17:53:45 SGT" finished-at="2020-11-12T17:53:51 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="computationTaxReliefTest()[pri:0, instance:test.java.TestCases.BookKeeper_taxReliefTC@2d928643]" name="computationTaxReliefTest" duration-ms="4193" started-at="2020-11-12T17:53:51 SGT" finished-at="2020-11-12T17:53:55 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- computationTaxReliefTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.java.TestCases.BookKeeper_taxReliefTC@2d928643]" name="setUp" is-config="true" duration-ms="40" started-at="2020-11-12T17:53:55 SGT" finished-at="2020-11-12T17:53:55 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getTaxReliefTest()[pri:0, instance:test.java.TestCases.BookKeeper_taxReliefTC@2d928643]" name="getTaxReliefTest" duration-ms="2" started-at="2020-11-12T17:53:55 SGT" finished-at="2020-11-12T17:53:55 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTaxReliefTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.java.TestCases.BookKeeper_taxReliefTC@2d928643]" name="setUp" is-config="true" duration-ms="71" started-at="2020-11-12T17:53:55 SGT" finished-at="2020-11-12T17:53:55 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="natIDMaskedWith$Test()[pri:0, instance:test.java.TestCases.BookKeeper_taxReliefTC@2d928643]" name="natIDMaskedWith$Test" duration-ms="1" started-at="2020-11-12T17:53:55 SGT" finished-at="2020-11-12T17:53:55 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- natIDMaskedWith$Test -->
+      </class> <!-- test.java.TestCases.BookKeeper_taxReliefTC -->
+    </test> <!-- RetryFailedTests -->
+  </suite> <!-- RetryFailedSuite -->
+</testng-results>

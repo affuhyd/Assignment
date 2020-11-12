@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>TestNG:  RetryFailedTests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RetryFailedTests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Nov 12 17:53:45 SGT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>81 seconds (81423 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.java.TestCases.InsertMultipleRecordsTC.InsertMultipleRecordsTest()'><b>InsertMultipleRecordsTest</b><br>Test class: test.java.TestCases.InsertMultipleRecordsTC</td>
+<td></td>
+<td>0</td>
+<td>test.java.TestCases.InsertMultipleRecordsTC@49993335</td></tr>
+<tr>
+<td title='test.java.TestCases.Governer_TC.VeriyCashDispensedTest()'><b>VeriyCashDispensedTest</b><br>Test class: test.java.TestCases.Governer_TC</td>
+<td></td>
+<td>1</td>
+<td>test.java.TestCases.Governer_TC@192b07fd</td></tr>
+<tr>
+<td title='test.java.TestCases.Governer_TC.btn_red_Test()'><b>btn_red_Test</b><br>Test class: test.java.TestCases.Governer_TC</td>
+<td></td>
+<td>0</td>
+<td>test.java.TestCases.Governer_TC@192b07fd</td></tr>
+<tr>
+<td title='test.java.TestCases.BookKeeper_taxReliefTC.computationTaxReliefTest()'><b>computationTaxReliefTest</b><br>Test class: test.java.TestCases.BookKeeper_taxReliefTC</td>
+<td></td>
+<td>4</td>
+<td>test.java.TestCases.BookKeeper_taxReliefTC@2d928643</td></tr>
+<tr>
+<td title='test.java.TestCases.BookKeeper_taxReliefTC.getTaxReliefTest()'><b>getTaxReliefTest</b><br>Test class: test.java.TestCases.BookKeeper_taxReliefTC</td>
+<td></td>
+<td>0</td>
+<td>test.java.TestCases.BookKeeper_taxReliefTC@2d928643</td></tr>
+<tr>
+<td title='test.java.TestCases.InsertRecordTC.insertIncorrectRecordTest()'><b>insertIncorrectRecordTest</b><br>Test class: test.java.TestCases.InsertRecordTC</td>
+<td></td>
+<td>0</td>
+<td>test.java.TestCases.InsertRecordTC@5025a98f</td></tr>
+<tr>
+<td title='test.java.TestCases.InsertRecordTC.insertSingleRecordTest()'><b>insertSingleRecordTest</b><br>Test class: test.java.TestCases.InsertRecordTC</td>
+<td></td>
+<td>0</td>
+<td>test.java.TestCases.InsertRecordTC@5025a98f</td></tr>
+<tr>
+<td title='test.java.TestCases.BookKeeper_taxReliefTC.natIDMaskedWith$Test()'><b>natIDMaskedWith$Test</b><br>Test class: test.java.TestCases.BookKeeper_taxReliefTC</td>
+<td></td>
+<td>0</td>
+<td>test.java.TestCases.BookKeeper_taxReliefTC@2d928643</td></tr>
+<tr>
+<td title='test.java.TestCases.Governer_TC.text_DispenseNowTest()'><b>text_DispenseNowTest</b><br>Test class: test.java.TestCases.Governer_TC</td>
+<td></td>
+<td>0</td>
+<td>test.java.TestCases.Governer_TC@192b07fd</td></tr>
+<tr>
+<td title='test.java.TestCases.UploadCSV_TC.uploadCSVTest()'><b>uploadCSVTest</b><br>Test class: test.java.TestCases.UploadCSV_TC</td>
+<td></td>
+<td>1</td>
+<td>test.java.TestCases.UploadCSV_TC@20322d26</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="RetryFailedSuite" verbose="1">
+<listeners>
+<listener class-name="main.java.Listeners.ExtentReporterNG" />
+
+</listeners>
+	<test name = "RetryFailedTests">
+		<classes>
+			<class name = "test.java.TestCases.BookKeeper_taxReliefTC" />
+			<class name = "test.java.TestCases.InsertRecordTC" />
+			<class name = "test.java.TestCases.InsertMultipleRecordsTC" />
+			<class name = "test.java.TestCases.UploadCSV_TC" />
+			<class name = "test.java.TestCases.Governer_TC" />
+		</classes>
+	</test>
+</suite>

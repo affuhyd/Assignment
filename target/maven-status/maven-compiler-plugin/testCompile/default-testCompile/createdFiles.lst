@@ -1,0 +1,5 @@
+test\java\TestCases\UploadCSV_TC.class
+test\java\TestCases\InsertMultipleRecordsTC.class
+test\java\TestCases\Governer_TC.class
+test\java\TestCases\InsertRecordTC.class
+test\java\TestCases\BookKeeper_taxReliefTC.class
