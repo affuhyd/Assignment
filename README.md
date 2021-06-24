@@ -41,3 +41,12 @@ If the user choses to execute specific test cases, then he/she can update 'enabl
 
 # Reporting
 Execution is performed sequentially and the report is generated in the root directory once execution is completed (ExtentReport.html).
+
+Questions
+=========
+1. possible to improve the design to run in non window environment? refer to error_1.png
+2. How do I link the AC in the Extent.html test result?
+3. what do you think can improve your implementation? 
+4. what is your opinion if you need to learn new languange or tool?
+5. how do you overcome any technical challenge? 
+6. do you think is there a need to continue learning? how do you keep yourself motivate to continue learning?
